@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+*/build/
+
+# Executables
+*.exe
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Logs
+*.log
