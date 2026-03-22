@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "m:\git\GTest_Trial\TIC\run_tic_py_tests.py", line 2, in <module>
+    from test_tic_py import test_init_to_ready_to_run, test_run_computation_and_pwm, test_fault_on_overcurrent, test_fault_on_over_temp
+  File "m:\git\GTest_Trial\TIC\test_tic_py.py", line 36, in <module>
+    lib = ctypes.CDLL(libpath)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py", line 361, in __init__
+    self._handle = self._load_library(name, mode, handle, winmode)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\ctypes\__init__.py", line 379, in _load_library
+    return _LoadLibrary(self._name, winmode)
+FileNotFoundError: Could not find module 'm:\git\GTest_Trial\TIC\build\libtic.dll' (or one of its dependencies). Try using the full path with constructor syntax.
